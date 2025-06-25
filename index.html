@@ -2,82 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Rahul Chavan - Data Engineer</title>
+  <title>Rahul Chavan - Resume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      background: linear-gradient(120deg, #e0e7ff 0%, #f1f5f9 100%);
-      font-family: 'Inter', Arial, sans-serif;
+      background: #f3f4f6;
+      font-family: Arial, sans-serif;
       margin: 0; padding: 0;
-      min-height: 100vh;
     }
-    .wrapper {
-      max-width: 600px;
-      margin: 2rem auto;
+    .container {
+      max-width: 420px;
+      margin: 3rem auto;
       background: #fff;
-      border-radius: 14px;
-      box-shadow: 0 4px 20px #c7d2fe44;
-      padding: 2.5rem 2rem 2rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px #e0e7ef70;
+      padding: 2rem 1.3rem;
+      text-align: center;
     }
     h1 {
       margin-top: 0;
-      color: #3730a3;
-      font-size: 2rem;
+      color: #2d3a61;
+      font-size: 1.6rem;
       letter-spacing: 0.5px;
     }
-    .headline { color: #64748b; margin-bottom: 1.3rem; }
+    .role {
+      color: #64748b;
+      margin-bottom: 1.2rem;
+      font-size: 1.04rem;
+    }
     .contacts {
       display: flex;
-      flex-wrap: wrap;
-      gap: 1.1rem;
+      flex-direction: column;
+      gap: 0.7rem;
       font-size: 1rem;
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.5rem;
       align-items: center;
-      justify-content: center;
     }
     .contacts a, .contacts span {
       color: #2563eb;
       text-decoration: none;
     }
     .contacts a:hover { text-decoration: underline; }
-    .section-title {
-      font-size: 1.08rem;
-      color: #4f46e5;
-      margin: 1.2em 0 0.4em 0;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-    }
-    ul, li { margin:0; padding:0; list-style:none; }
-    ul { margin-bottom: 0.7em; }
-    li { margin-bottom: 0.3em; line-height: 1.6; }
-    .bold { font-weight: 600; }
     .resume-link {
       display: inline-block;
-      margin: 1.2rem 0 1.6rem 0;
-      padding: 0.6rem 1.4rem;
-      background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+      margin-top: 1rem;
+      padding: 0.6rem 1.3rem;
+      background: #6366f1;
       color: #fff;
       border-radius: 5px;
       font-weight: 600;
-      font-size: 1.09rem;
+      font-size: 1.06rem;
       text-decoration: none;
       transition: background 0.2s, transform 0.2s;
     }
     .resume-link:hover, .resume-link:focus {
-      background: linear-gradient(90deg, #4338ca 0%, #2563eb 100%);
-      transform: translateY(-2px) scale(1.03);
+      background: #4338ca;
+      transform: scale(1.03);
     }
-    @media (max-width: 700px) {
-      .wrapper { padding: 1.1rem 0.2rem; }
-      h1 { font-size: 1.35rem; }
+    @media (max-width: 600px) {
+      .container { padding: 1rem 0.2rem; }
+      h1 { font-size: 1.2rem; }
     }
   </style>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="container">
     <h1>Rahul Chavan</h1>
-    <div class="headline">Data Engineer | Cloud & AI Solutions</div>
+    <div class="role">Data Engineer | Cloud & AI Solutions</div>
     <div class="contacts">
       <a href="https://www.linkedin.com/in/rahul21chavan" target="_blank">LinkedIn</a>
       <a href="https://github.com/rahul21chavan" target="_blank">GitHub</a>
@@ -85,26 +76,6 @@
       <a href="mailto:rcchavan663@gmail.com">✉️ rcchavan663@gmail.com</a>
     </div>
     <a class="resume-link" href="rahul_chavan_resume.pdf" target="_blank">Download PDF Resume</a>
-    <div class="section-title">Professional Summary</div>
-    <div>
-      Hello! I'm Rahul, a data engineer with 2+ years of experience in building scalable data pipelines and AI-powered solutions. I’ve worked on SAS to PySpark migration using Databricks, cloud-native pipelines, and LLM-driven apps. Proficient in Python, SQL, PySpark, and cloud tools like AWS, Azure, and Snowflake.
-    </div>
-    <div class="section-title">Experience</div>
-    <ul>
-      <li class="bold">Data Engineer, LTIMindtree <span style="color:#64748b;">Sep 2023 – Present</span></li>
-      <li>Migrated SAS workflows to PySpark using Databricks custom tools.</li>
-      <li>Built scalable ETL pipelines with Python, SQL, and Databricks.</li>
-      <li>Deployed & fine-tuned LLMs using SageMaker and GCP Vertex AI.</li>
-      <li>Optimized cloud costs by 18% with parallelization and cluster tuning.</li>
-      <li>Enabled text-based data queries using LLMs in Streamlit dashboards.</li>
-    </ul>
-    <div class="section-title">Skills</div>
-    <ul>
-      <li>Python, SQL, PySpark, SAS</li>
-      <li>Spark, Hadoop, Airflow, Databricks</li>
-      <li>AWS, Azure, GCP, Snowflake</li>
-      <li>Power BI, Looker, Git, LLMs, Generative AI</li>
-    </ul>
   </div>
 </body>
 </html>
